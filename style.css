@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.crew{
+    background-image: linear-gradient(to right bottom,#3669b6,#92b8f1 );
+    background-size: cover;
+    /* background-color:#4d94ff; */
+}
+.sky nav{
+text-align: center;
+display: flex;
+padding: 2%;
+padding-bottom: 2%;
+/* margin: 5%; */
+gap: 1rem;
+justify-content: center;
+color: #fff;
+}
+.skylogo nav{
+    padding-left: 1%;
+}
+.sky1{
+    padding-left: 30rem;
+    display: flex;
+    gap: 10rem;
+}
+.pic{
+    text-align: center;
+    display: flex;
+    gap: 30rem;
+    padding-left: 5%;
+    justify-content: center;
+    color:#fff ;
+    flex: 1;
+}
+.image{
+    width: 100%;
+}
+.pic1{
+    font-size: 1.5rem;
+    padding-top: 5%;
+
+}
+.pic2{
+    font-size: 1rem;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.pic3{
+    margin: -0.%;
+    width: 30rem;
+    height: 70px;
+    border-color: #fff;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    position: relative;
+}
+.pic4{
+    font-size: 20px;
+}
+.pic5{
+    height: 2rem;
+    width: 5rem;
+    background-color: blue;
+    border-radius: 10%;
+    border-color: #fff;
+    color: #fff;
+    border: 1px solid transparent;
+    position:absolute;
+    right: 65rem;
+    top: 53%;
+    left: 30%;
+
+}
+.pic6{
+    width: 70%;
+    height: 50%;
+}
+.stand{
+    background-color: skyblue;
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 5%;
+    height: 60px;
+   }
+  .hint{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  } 
+  .hint1{
+    padding: 2%;
+    font-size: 1.2rem;
+  }
+  .hint2{
+    font-size: 3rem;
+  }
+.rain{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-bottom: 5%;
+}
+@media (min-width: 220px) and (max-width: 640px) {
+ .pic{
+    flex-direction: column;
+ }
+ .image img{
+    width: 100%;
+}
+.time{
+    overflow: hidden;
+}
+ }
+@media (min-width: 641px) and (max-width: 768px) {
+
+}
+@media (min-width: 641px) and (max-width: 768px) {}
+@media (min-width: 769px) and (max-width: 1024px) {}
